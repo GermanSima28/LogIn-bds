@@ -58,6 +58,6 @@ $ejecutar=mysqli_query($conectar,$query);
 if(!$ejecutar){
     echo "Hubo algun error";
 }else{
-    echo "Datos guardados correctamente<br><a href='inicio.php'>Volver</a>";
+    echo "Datos guardados correctamente<br><a href='index.php'>Volver</a>";
 }
 ?>
